@@ -1,0 +1,20 @@
+body{
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    margin: 20px 20px 20px 20px;
+    float:none;
+ }
+ #title{
+    float: left;
+    margin: 5px 20px 0px 00px;
+ }
+ #data_entry {
+    border-style: solid;
+    border-color: blue;
+    border-radius: 10px;
+    width:620px;
+    padding: 10px 10px 10px 10px;
+ }
+ .errors{
+    color:red;
+ }
+ 
