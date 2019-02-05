@@ -18,7 +18,7 @@ session_destroy();
     <?php include('header.php'); ?>
     <h3>Test your luck..play Blackjack!!</h3>
 <div>
-<form action="drawtwo.php" method="post">
+<form action="drawtwo.php" method="put">
 Draw two cards by clicking the button.  <input type="submit" value="Draw">
 </div>
 

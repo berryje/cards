@@ -34,16 +34,16 @@ $_SESSION['deck_id'] = $response_data['deck_id'];
     <?php foreach($card_array as $card) : ?>
     <img src="<?php echo $card['image'];?>" alt="">
     <?php endforeach; ?>
-    <h1><?php echo "Your card total is $card_total"; ?></h1>
+    <h2><?php echo "Your card total is $card_total"; ?></h2>
 
     <?php if($card_total > 21): ?>
-       Sorry your total is above 21
+       Sorry your total is above 21.
        <a href="index.php">Play Again</a>
    <?php elseif($card_total == 21): ?>
-       You win, take a trip to Vegas
+       You win, take a trip to Vegas!!
        <a href="index.php">Play Again</a>
    <?php else: ?>
-       <input href="drawagain.php" value="draw again">
+       Not quite enough. You need to <a href="drawagain.php">draw again.</a>
    <?php endif; ?>
 
 
