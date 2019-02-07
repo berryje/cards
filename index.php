@@ -19,7 +19,7 @@ session_destroy();
     <h3>Test your luck..play Blackjack!!</h3>
 <div>
 <form action="drawtwo.php" method="put">
-Draw two cards by clicking the button.  <input type="submit" value="Draw">
+Draw two cards by clicking the button.  <input type="submit" value="Draw" autofocus>
 </div>
 
 
